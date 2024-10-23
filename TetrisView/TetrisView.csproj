@@ -1,0 +1,106 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <!-- <ApplicationHighDpiMode>SystemAware</ApplicationHighDpiMode> -->
+    <!-- <ForceDesignerDpiUnaware>true</ForceDesignerDpiUnaware> -->
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\Shape Blocks\BlockEmpty.png" />
+    <None Remove="Resources\Shape Blocks\I.png" />
+    <None Remove="Resources\Shape Blocks\J.png" />
+    <None Remove="Resources\Shape Blocks\L.png" />
+    <None Remove="Resources\Shape Blocks\O.png" />
+    <None Remove="Resources\Shape Blocks\S.png" />
+    <None Remove="Resources\Shape Blocks\T.png" />
+    <None Remove="Resources\Shape Blocks\Z.png" />
+    <None Remove="Resources\Single Blocks\Blue.png" />
+    <None Remove="Resources\Single Blocks\Green.png" />
+    <None Remove="Resources\Single Blocks\LightBlue.png" />
+    <None Remove="Resources\Single Blocks\Orange.png" />
+    <None Remove="Resources\Single Blocks\Purple.png" />
+    <None Remove="Resources\Single Blocks\Red.png" />
+    <None Remove="Resources\Single Blocks\TileEmpty.png" />
+    <None Remove="Resources\Single Blocks\TileEmpty2.png" />
+    <None Remove="Resources\Single Blocks\Yellow.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TetrisModel\TetrisModel.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\Shape Blocks\BlockEmpty.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\Shape Blocks\I.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\Shape Blocks\J.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\Shape Blocks\L.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\Shape Blocks\O.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\Shape Blocks\S.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\Shape Blocks\T.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\Shape Blocks\Z.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\Single Blocks\Blue.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\Single Blocks\Green.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\Single Blocks\LightBlue.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\Single Blocks\Orange.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\Single Blocks\Purple.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\Single Blocks\Red.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\Single Blocks\TileEmpty.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\Single Blocks\TileEmpty2.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\Single Blocks\Yellow.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
+</Project>
