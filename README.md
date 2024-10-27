@@ -8,4 +8,4 @@ Uses View-Model-Persistence architecture.
 
  Saving the game to file, loading from file
 
- Pink mode for an alternative block color view
+ Pink mode for alternative block and grid colors
