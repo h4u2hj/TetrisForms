@@ -1,4 +1,4 @@
-# Tetris Beadandó
+# Tetris Game
 
 Tetris game implemented in .NET C# Windows Forms.
 Uses View-Model-Persistence architecture.
